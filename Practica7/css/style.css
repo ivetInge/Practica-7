@@ -1,0 +1,94 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100%;
+    overflow: hidden;
+    background: url(../images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@font-face {
+    font-family: 'Hagin';
+    src: url('fonts/Poppins-LightItalic');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Medium');
+}
+
+@font-face {
+    font-family: 'Poppins-normal';
+    src: url('fonts/Poppins-normal');
+}
+
+.container{
+    width: 45%;
+    height: 60%;
+    position: relative;
+    top: 7%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.marca{
+    width: fit-content;
+    font-family: Hagin;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(238, 238, 238);
+    letter-spacing: 2px;
+}
+
+.titulo{
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-family: Poppins;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-align: justify;
+    color: rgb(245, 185, 220);
+}
+
+.aviso{
+    width: 90%;
+    margin-top: 10px;
+    font-family: Poppins-normal;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    letter-spacing: .2rem;
+    text-align: left;
+    color: rgb(243, 130, 77);
+}
+
+.cta{
+    position: absolute;
+    bottom: 20%;
+    right: 7%;
+}
+
+.cta a{
+    border: solid;
+    font-family: Poppins-normal;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: rgba(107, 107, 107, .6);
+    color: rgb(230, 215, 15);
+}
+
+.cta a:hover{
+    color: alliceblue;
+    background-color: rgba(19, 243, 30, 0.897);
+}
